@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  background: #E5E5E5;
+
+
+}
+
+.header {
+  position: absolute;
+  width: 156px;
+  height: 54px;
+  left: 121px;
+  top: 11px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+
+.icon-img {
+  position: absolute;
+
+  width: 156px;
+  height: 54px;
+  left: 121px;
+  top: 11px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-button img {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin-left: 1140px;
+  margin-top: 29px;
+  object-fit: cover;
+
+
+}
+
+.header input[type=text] {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 8px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-indent: 20px;
+
+
+  position: absolute;
+  width: 180px;
+  height: 36px;
+  left: 1140px;
+  top: 20px;
+
+  /* Navy / 0 */
+
+  background: #FFFFFF;
+  /* Navy/500 */
+
+  border: 1px solid #C0C4CC;
+  border-radius: 2px;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+
+
+}
+
+
+
+.header hr {
+  position: absolute;
+  width: 1200px;
+  height: 0px;
+  left: 120px;
+  top: 77px;
+
+  /* Navy/500 */
+
+  border: 1px solid #C0C4CC;
+}
+
+.header h3 {
+  position: absolute;
+  width: 269px;
+  height: 22px;
+  left: 120px;
+  top: 114px;
+
+  /* H / H3 */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* or 117% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+
+.container {
+  padding-top: 150px;
+
+  width: 100%;
+  margin: 1em auto;
+  background-color: #FFFF;
+}
+
+.grid {
+  display: grid;
+  margin-left: 0.2em;
+  margin-left: .5px;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-auto-rows: 150px; */
+  /* grid-gap: 0.2em; */
+  gap: 24px;
+  justify-content: center;
+}
+
+.main-img {
+  position: absolute;
+  width: 280px;
+  height: 302px;
+}
+
+.modal-img {
+  width: 266px;
+  height: 389px;
+}
+
+.movie-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  white-space: pre;
+  overflow: hidden;
+  text-align: center;
+
+
+  position: relative;
+  width: 282px;
+  height: 348px;
+  /* align-items: center; */
+
+
+
+  /* Navy / 0 */
+
+  background: #FFFFFF;
+  /* Navy/400 */
+
+  border: 1px solid #E1E3E6;
+  box-shadow: 1px 2px 8px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.movie-card img {
+  position: absolute;
+  width: 280px;
+  height: 302px;
+  top: 1px;
+
+  background: #FFFFFF;
+  border-radius: 7px 7px 0px 0px;
+
+}
+
+.movie-card figcaption {
+  position: absolute;
+  width: 109px;
+  height: 20px;
+  top: 313px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* Body 2 / Body 2 */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+
+}
+
+.movie-card h4 {
+  position: absolute;
+  width: 109px;
+  height: 20px;
+  top: 313px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* Body 2 / Body 2 */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  display: flex;
+  /* align-items: center; */
+  letter-spacing: -0.01em;
+
+  color: #000000;
+
+}
+
+
+
+.modal-container {
+  width: 583px;
+  height: 474px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.modal-class {
+  width: 583px;
+  height: 474px;
+
+}
+
+.modal-conten {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  position: absolute;
+  width: 241px;
+  height: 152px;
+
+
+}
+
+h2 {
+  background-color: antiquewhite;
+}
