@@ -1,5 +1,5 @@
 # Movie-App Live Deployed Link :
-[movie-app-chinmaybhole.netlify.app/](movie-app-chinmaybhole.netlify.app/)
+[movie-app-chinmaybhole.netlify.app/](https://movie-app-chinmaybhole.netlify.app/)
 
 ## UI Design
 
