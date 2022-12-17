@@ -15,3 +15,11 @@
 
 
 ![Modal](public/ModalSS.png)
+
+
+
+
+➡️ Movies Not Found
+
+
+![MoviesNotFound](public/SearchSS.png)
