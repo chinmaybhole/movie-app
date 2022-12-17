@@ -96,7 +96,7 @@ function App() {
             </div>
     </div>
       ):(
-        <h3>Sorry !! No Movies Found</h3>
+        <h3 className='nomovie'>Sorry !! No Movies Found</h3>
       )}
     </div>  
     </>

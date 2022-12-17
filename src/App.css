@@ -349,6 +349,28 @@ body {
   flex-grow: 0;
 }
 
+.nomovie {
+  position: absolute;
+  width: 500px;
+  height: 20px;
+  top: 200px;
+  padding-left: 240px;
+  padding-right: 10px;
+  /* Body 2 / Body 2 */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 26px;
+
+  display: flex;
+  /* align-items: center; */
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+
 h2 {
   background-color: antiquewhite;
 }
