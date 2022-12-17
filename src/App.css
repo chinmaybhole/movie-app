@@ -1,15 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
-
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Inter';
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style-type: none;
   outline: none;
   background: #E5E5E5;
-
-
 }
 
 .header {
@@ -154,10 +150,7 @@ body {
   height: 302px;
 }
 
-.modal-img {
-  width: 266px;
-  height: 389px;
-}
+
 
 .movie-card {
   box-sizing: border-box;
@@ -220,6 +213,27 @@ body {
 
 }
 
+.ellipse {
+  position: relative;
+  background-color: #FFFF;
+  width: 34px;
+  height: 34px;
+  top: 15px;
+  left: 15px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 12px;
+  color: #000000;
+
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+
 .movie-card h4 {
   position: absolute;
   width: 109px;
@@ -250,7 +264,11 @@ body {
   height: 474px;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  gap: 30px;
+
+
+
 }
 
 .modal-class {
@@ -264,13 +282,71 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 16px;
+
+
 
   position: absolute;
   width: 241px;
   height: 152px;
 
 
+}
+
+.modal-img {
+  width: 266px;
+  height: 389px;
+  left: 458px;
+  top: 389px;
+}
+
+.modal-conten p {
+  width: 241px;
+  height: 86px;
+  white-space: nowrap;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.modal-conten h4 {
+  width: 222px;
+  height: 14px;
+  white-space: nowrap;
+
+  /* Subhead/Subtitle 3 */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
 h2 {
