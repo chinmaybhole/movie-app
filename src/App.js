@@ -24,7 +24,7 @@ function App() {
   }
   // useEffect to fetch popular movies api
   useEffect(defaultSite, [])
-
+  console.log("Hello World!!")
   const searchMovie = async(e)=>{
     e.preventDefault();
     console.log("Searching");
