@@ -457,3 +457,77 @@ h2 {
   }
 
 }
+/* Styles for screens between 600px and 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+  .header {
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .icon-img {
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .search-button img {
+    margin-left: 80%;
+  }
+
+  .header input[type=text] {
+    width: 70%;
+    left: 20%;
+    top: 20px;
+  }
+
+  .header hr {
+    width: 100%;
+    left: 0;
+    top: 77px;
+  }
+
+  .header h3 {
+    width: 100%;
+    left: 0;
+    top: 120px;
+    font-size: 22px;
+  }
+
+  .container {
+    padding-top: 120px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .movie-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .movie-card img {
+    width: 100%;
+    height: 200px;
+    top: 0;
+  }
+
+  .movie-card figcaption {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .ellipse {
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: 50px;
+    background-color: blue;
+    border-radius: 50%;
+  }}
